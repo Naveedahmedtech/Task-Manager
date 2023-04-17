@@ -1,0 +1,25 @@
+.App {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.main-content {
+  padding: 2em 5em;
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 1036) {
+  .App {
+    overflow: auto;
+  }
+}
+@media screen and (max-width: 911px) {
+  .main-content {
+    padding: 1em;
+  }
+  .App {
+    display: block;
+    overflow: auto;
+  }
+}

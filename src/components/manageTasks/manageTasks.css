@@ -1,0 +1,51 @@
+.manage-task {
+    height: 100vh;
+    overflow: auto;
+}
+.table-manage {
+    max-height: 600px;
+    overflow: auto;
+}
+
+.ranking-icons {
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin: 0 .5em;
+}
+
+.bt {
+    outline: none;
+    border: none;
+    padding: 1em;
+    margin: 0 1em;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.bt:hover {
+    opacity: .7;
+}
+
+.btn-edit {
+    color: rgb(0, 162, 255);
+}
+
+.btn-completed {
+    color: rgb(0, 255, 0);
+}
+
+.btn-remove {
+    color: rgb(255, 0, 0);
+}
+.completed{
+    color: gray;
+    text-decoration: line-through;
+}
+.editable{
+    color: rgb(255, 255, 255);
+    outline: none;
+    border: 2px solid black;
+    padding: 1em;
+    background-color: transparent;
+    width: 100%;
+}
