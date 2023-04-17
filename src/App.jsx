@@ -16,6 +16,7 @@ function App() {
             <Route path='/home' element={<Home />} />
             <Route path='/add-task' element={<AddTask />} />
             <Route path='/manage-task' element={<ManageTasks />} />
+            <Route path='*' element="Page Not Found" />
           </Routes> 
         </div>
       </BrowserRouter>
